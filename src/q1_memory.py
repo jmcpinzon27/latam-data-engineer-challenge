@@ -5,6 +5,7 @@ from collections import defaultdict
 import time
 from memory_profiler import memory_usage
 
+# Construimos el decorador timeit
 def timeit(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
