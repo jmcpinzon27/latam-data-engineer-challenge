@@ -5,6 +5,7 @@ import os
 import time
 from functools import wraps
 
+# Construimos el decorador timeit
 def timeit(func):
     """
     Decorador para medir el tiempo de ejecución de una función.

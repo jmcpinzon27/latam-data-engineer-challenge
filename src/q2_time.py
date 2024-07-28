@@ -17,9 +17,7 @@ def timeit(func):
         return result
     return wrapper
 
-
 @timeit
-
 def q2_time(file_path: str) -> List[Tuple[str, int]]:
     """
     Función que lee un archivo de tweets en formato JSON y devuelve los 10 emojis más utilizados.

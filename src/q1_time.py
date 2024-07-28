@@ -16,7 +16,6 @@ def timeit(func):
         return result
     return wrapper
 
-
 @timeit
 def q1_time(file_path: str) -> List[Tuple[datetime.date, str]]:
     # Diccionario para contar los tweets por fecha

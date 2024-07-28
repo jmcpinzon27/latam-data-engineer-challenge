@@ -5,6 +5,7 @@ from collections import Counter
 import time
 from functools import wraps
 
+# Construimos el decorador timeit
 def timeit(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
